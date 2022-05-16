@@ -1,23 +1,13 @@
-#logo-box{
-  background-color:#ffdef6;
-}
-#about-me-box{
-  background-color: #b7e4ed;
-}
-#project-box{
-  background-color:#b7cced;
-}
-#welcome-box{
-  background-color:#b7edeb;
-  text-align:center;
-}
-#contact-box{
-  background-color:#ff94cf;
-}
-#resume-box{
-  background-color:#ff47ad;
-}
 .basic{
   color: black;
   text-decoration: none;
+}
+#table{
+  text-align: center;
+}
+body{
+  background-color: #9ed4db;
+}
+.cell{
+  background-color: #67a5ad;
 }
