@@ -18,3 +18,12 @@ body{
   background-color:#ff0084;
   color: white;
 }
+.title{
+  font-family: 'Koulen', cursive;
+  font-size: 70px;
+}
+.paragraph{
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 20px;
+}
