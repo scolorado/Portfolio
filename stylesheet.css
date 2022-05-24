@@ -1,12 +1,20 @@
 .basic{
   color: black;
   text-decoration: none;
+  font-family: 'Bebas Neue', cursive;
 }
 .basic:hover{
   color:#ff0084;
 }
+.welcome{
+  font-family: 'Raleway', sans-serif;
+  font-size: 90px;
+  text-align: center;
+  padding: 70px 0;
+}
 #table{
   text-align: center;
+  margin: 5px;
 }
 body{
   background-color: #9ed4db;
