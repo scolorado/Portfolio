@@ -37,7 +37,24 @@ body{
 }
 .footer{
   font-family: 'Playfair Display', serif;
+  bottom: 0;
 }
 .footer1{
   color: #ff0084;
+}
+.resumedoc {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 50%;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 5px;
+  left: 15%;
+  right: 0;
+  width: 70%;
+  height: 80%;
+  border: none;
 }
