@@ -58,3 +58,11 @@ body{
   height: 80%;
   border: none;
 }
+.cardst{
+  font-family: 'PT Serif', serif;
+  text-decoration: none;
+  color: black;
+}
+.cardst:hover{
+  color: #ff0084;
+}
