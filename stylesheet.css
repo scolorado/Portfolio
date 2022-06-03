@@ -69,3 +69,13 @@ body{
 #cardx{
   font-family: 'Open Sans', sans-serif;
 }
+#buttonz{
+  background-color: #ff0084;
+  color: white;
+}
+#foot{
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+}
