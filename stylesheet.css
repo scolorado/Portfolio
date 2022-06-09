@@ -79,3 +79,10 @@ body{
   bottom: 0;
   width: 100%;
 }
+.card{
+  color: black !important;
+}
+.dark-mode{
+  background-color: #3e4a94;
+  color: white;
+}

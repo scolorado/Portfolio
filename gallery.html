@@ -93,7 +93,11 @@
 
 <div class="container-fluid">
   <div class="row">
-    <div class="mt-5 p-1 bg-light text-dark">
+    <div class="mt-5 p-1 bg-light text-dark justify-content-center">
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" checked onclick="myFunction()">
+        <label class="form-check-label" for="mySwitch">Light Mode</label>
+      </div>
       <footer class="text-center text-dark">
         <p class="footer"> Created by Sofia Colorado <span class="footer1">@2022</span></p>
       </footer>
@@ -101,6 +105,21 @@
   </div>
 </div>
 
+<script>
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
+
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl)
+})
+</script>
 
   </body>
 </html>
