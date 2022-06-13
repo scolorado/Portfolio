@@ -86,3 +86,14 @@ body{
   background-color: #3e4a94;
   color: white;
 }
+.mail{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+}
+.links{
+  color: black;
+  text-decoration: none;
+}
+.links:hover{
+  color:#ff0084;
+}
